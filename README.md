@@ -16,6 +16,6 @@
  Technologies:
  * Java
  * JDBC
- * Oracle SQL
+ * PL/SQL
  * JUnit
 
