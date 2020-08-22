@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7158FB3F-DAC5-4777-0239-DCE3DDEC003F" schemaObject="5D7EE8B1-FF0B-0946-143D-1C139DCAF37A" name="BANK">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>BANK</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:41 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="U_ID" id="86A892F1-1CE8-E86C-B953-AFA9EB8CE08C">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>U_ID</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67823583-69B7-28CC-1DCD-694985F448FB" referredColumn="81794041-9E86-3802-77B8-140A55D98F40"/>
+</associations>
+</Column>
+<Column name="C_ID" id="37AA5EA6-D228-E874-B587-E474F32A8B9B">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>C_ID</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_YEAR" id="08DB059C-7ED9-9F90-F212-05A6ADA48EC4">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>B_YEAR</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_MAKE" id="FCEE5EEA-182D-ED8A-7034-903DDCA7CF7C">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>B_MAKE</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_MODEL" id="64F42E0C-B47D-617B-461A-9A7DCAADCA8C">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>B_MODEL</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_PAID" id="20E992C4-CB5D-2563-680E-969E89C9DD55">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>B_PAID</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_LOAN" id="9B41C938-0FC5-EC38-581C-B41B49AC537D">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>B_LOAN</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_TERM" id="E790E2B7-FB7B-2143-F19E-743ADDED5DC9">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>B_TERM</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB78E882-DB6C-45D0-6437-3FB4C403F5F4" name="FK_BANK_TO_USERS">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A892F1-1CE8-E86C-B953-AFA9EB8CE08C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

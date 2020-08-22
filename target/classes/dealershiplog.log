@@ -1,0 +1,23 @@
+INFO  | 2020-08-13 16:03:32 | [main] utility.JDBCConnection (JDBCConnection.java:32) - CONNECTION TO DB SUCCESS
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:71) - RETRIEVING REQUESTS FOR USER ID: 1000
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:81) - SUCCESS
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:81) - SUCCESS
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:81) - SUCCESS
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:197) - DAO: HEAD APROVE
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:202) - S:APPROVE for R_ID:112 NEXT TO APPROVE: BENCO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:218) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:240) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:262) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:142) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:168) - CREATION FAIL
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:176) - DAO: SUPER APPROVE
+INFO  | 2020-08-13 16:03:32 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-13 16:03:33 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:71) - RETRIEVING REQUESTS FOR USER ID: 99999
+INFO  | 2020-08-13 16:03:33 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:142) - DAO
+INFO  | 2020-08-13 16:03:33 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:161) - SUCCESSFUL CREATION OF REQUEST
+INFO  | 2020-08-13 16:03:33 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO

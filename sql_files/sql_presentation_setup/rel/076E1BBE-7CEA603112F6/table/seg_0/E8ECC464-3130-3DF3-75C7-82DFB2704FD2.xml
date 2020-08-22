@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8ECC464-3130-3DF3-75C7-82DFB2704FD2" schemaObject="5D7EE8B1-FF0B-0946-143D-1C139DCAF37A" name="OFFERS">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>OFFERS</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="U_ID" id="E7378DF0-2167-C9D2-6D6A-2AA9C40371CD">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>OFFERS</sourceObjSchema>
+<sourceObjName>U_ID</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A98E6646-9073-8105-DA29-E410839E0E89" referredColumn="81794041-9E86-3802-77B8-140A55D98F40"/>
+</associations>
+</Column>
+<Column name="C_ID" id="BECA825D-B941-E6F5-71AD-B7EEAE37477B">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>OFFERS</sourceObjSchema>
+<sourceObjName>C_ID</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C532CB-D697-2F61-0331-8661B139B4B6" referredColumn="56B860B0-DF11-AF9F-72E2-B1C6B9D8BBBC"/>
+</associations>
+</Column>
+<Column name="O_VALUE" id="04474045-0295-6652-00AA-838822B2B830">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>OFFERS</sourceObjSchema>
+<sourceObjName>O_VALUE</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="O_STATUS" id="FCA5EB1F-6847-3D53-E7AA-EF3A4F9FA479">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>OFFERS</sourceObjSchema>
+<sourceObjName>O_STATUS</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD8D843D-C30A-B116-5B10-8C4F4D2F5763" name="CK_TO_U_C">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>CK_TO_U_C</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7378DF0-2167-C9D2-6D6A-2AA9C40371CD"/>
+<colUsage columnID="BECA825D-B941-E6F5-71AD-B7EEAE37477B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762F6EE4-9C19-C696-8934-CF404E66C125" schemaObject="5D7EE8B1-FF0B-0946-143D-1C139DCAF37A" name="CK_TO_U_C">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>CK_TO_U_C</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7378DF0-2167-C9D2-6D6A-2AA9C40371CD"/>
+<colUsage columnID="BECA825D-B941-E6F5-71AD-B7EEAE37477B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DFCEF7E-19F1-835E-71C6-0AF642CD79DA" name="FK_TO_CARS">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BECA825D-B941-E6F5-71AD-B7EEAE37477B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B6D1F1A-D908-D2D2-C8DA-AE96D3938EC5" name="FK_TO_USERS">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7378DF0-2167-C9D2-6D6A-2AA9C40371CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

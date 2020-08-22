@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CARS" directorySegmentName="seg_0" id="2E0EB9FA-A629-CEE5-E1D4-34D2CAE019BF">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7F9C9B19-ACD5-E660-5686-24F11634719F</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="C_MODEL" id="1DADFB9A-302C-D5AB-493F-9127C2ADAC56">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_YEAR" id="5537E997-F5CC-E078-F873-EA87F5C6FF5B">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_ID" id="56B860B0-DF11-AF9F-72E2-B1C6B9D8BBBC">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_MSRP" id="63F053F9-5D2C-2C0A-8BC0-13DB997C3217">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_MAKE" id="823418FF-06C3-4BEA-45F3-8EC89EF1EC5C">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_MILES" id="B5A51728-BE2E-3561-54EF-C6A0F08440E5">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CARS_PK" id="FAAAC494-B7BB-F2FA-B3D6-0D225A612F1D">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<segment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<indexSegment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

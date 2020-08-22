@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USERS" directorySegmentName="seg_0" id="38847029-7F2C-B793-C3D2-14372FA7890A">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7F9C9B19-ACD5-E660-5686-24F11634719F</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTOMER" id="69E474D4-580D-DDC6-5A1B-DB93DB9FAEA7">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="U_ID" id="81794041-9E86-3802-77B8-140A55D98F40">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="U_NAME" id="AA368E10-91EA-58A5-E472-7E2083290380">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="U_PASSWORD" id="D74150C8-5F3B-99ED-6204-50E0008C7597">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USERS_PK" id="6A137911-A13F-3123-6A6A-7B02C289ED0B">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<segment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<indexSegment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="USERS_U_NAME_UN" id="25A04FA1-C1AA-F4F8-590B-89E13BD868E5">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<segment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<indexSegment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

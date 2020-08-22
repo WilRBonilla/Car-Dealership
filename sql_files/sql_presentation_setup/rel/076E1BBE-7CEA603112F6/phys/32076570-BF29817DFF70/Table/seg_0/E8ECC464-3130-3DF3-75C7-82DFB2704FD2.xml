@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="OFFERS" directorySegmentName="seg_0" id="E8ECC464-3130-3DF3-75C7-82DFB2704FD2">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7F9C9B19-ACD5-E660-5686-24F11634719F</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="O_VALUE" id="04474045-0295-6652-00AA-838822B2B830">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_ID" id="BECA825D-B941-E6F5-71AD-B7EEAE37477B">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="U_ID" id="E7378DF0-2167-C9D2-6D6A-2AA9C40371CD">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="O_STATUS" id="FCA5EB1F-6847-3D53-E7AA-EF3A4F9FA479">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CK_TO_U_C" id="762F6EE4-9C19-C696-8934-CF404E66C125">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<segment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TO_USERS" id="3B6D1F1A-D908-D2D2-C8DA-AE96D3938EC5">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TO_CARS" id="8DFCEF7E-19F1-835E-71C6-0AF642CD79DA">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CK_TO_U_C" id="FD8D843D-C30A-B116-5B10-8C4F4D2F5763">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<segment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<existingIndex>762F6EE4-9C19-C696-8934-CF404E66C125</existingIndex>
+<indexSegment>4D307B13-6EB3-B124-9CA3-DBECD52AF621</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

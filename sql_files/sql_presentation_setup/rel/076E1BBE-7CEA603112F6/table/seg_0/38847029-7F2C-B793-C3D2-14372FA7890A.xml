@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38847029-7F2C-B793-C3D2-14372FA7890A" schemaObject="5D7EE8B1-FF0B-0946-143D-1C139DCAF37A" name="USERS">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="U_ID" id="81794041-9E86-3802-77B8-140A55D98F40">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_ID</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_NAME" id="AA368E10-91EA-58A5-E472-7E2083290380">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_NAME</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_PASSWORD" id="D74150C8-5F3B-99ED-6204-50E0008C7597">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_PASSWORD</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER" id="69E474D4-580D-DDC6-5A1B-DB93DB9FAEA7">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A137911-A13F-3123-6A6A-7B02C289ED0B" schemaObject="5D7EE8B1-FF0B-0946-143D-1C139DCAF37A" name="USERS_PK">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>SYS_C003970</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81794041-9E86-3802-77B8-140A55D98F40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25A04FA1-C1AA-F4F8-590B-89E13BD868E5" schemaObject="5D7EE8B1-FF0B-0946-143D-1C139DCAF37A" name="USERS_U_NAME_UN">
+<sourceConnName>Project0_CarDealership</sourceConnName>
+<sourceObjSchema>WILL</sourceObjSchema>
+<sourceObjName>SYS_C003971</sourceObjName>
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA368E10-91EA-58A5-E472-7E2083290380"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BANK" directorySegmentName="seg_0" id="7158FB3F-DAC5-4777-0239-DCE3DDEC003F">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+<schemaObject>5D7EE8B1-FF0B-0946-143D-1C139DCAF37A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7F9C9B19-ACD5-E660-5686-24F11634719F</segment>
+<tableSpace>BAF0C508-6D44-58C0-9593-422879FC9343</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="B_YEAR" id="08DB059C-7ED9-9F90-F212-05A6ADA48EC4">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="B_PAID" id="20E992C4-CB5D-2563-680E-969E89C9DD55">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_ID" id="37AA5EA6-D228-E874-B587-E474F32A8B9B">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="B_MODEL" id="64F42E0C-B47D-617B-461A-9A7DCAADCA8C">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="U_ID" id="86A892F1-1CE8-E86C-B953-AFA9EB8CE08C">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="B_LOAN" id="9B41C938-0FC5-EC38-581C-B41B49AC537D">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="B_TERM" id="E790E2B7-FB7B-2143-F19E-743ADDED5DC9">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="B_MAKE" id="FCEE5EEA-182D-ED8A-7034-903DDCA7CF7C">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:42 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BANK_TO_USERS" id="DB78E882-DB6C-45D0-6437-3FB4C403F5F4">
+<createdBy>willi</createdBy>
+<createdTime>2020-07-27 22:00:43 UTC</createdTime>
+<ownerDesignName>sql_presentation_setup</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>
